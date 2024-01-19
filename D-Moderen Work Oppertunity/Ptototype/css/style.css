@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'customFont'; /* Choose a unique name for your font */
+    src: url('../Fonts/Proxima Nova Font.otf') format('opentype'); /* Adjust the path and format accordingly */
+    }
+
+
+body{
+    font-family: 'customFont',Helvetica, Arial, sans-serif;
+}
+.btn-signup{
+    background-color: #6E46AE;
+    color: white;
+}
+.btn-signup:hover{
+    background-color: #6E46AE;
+    color: white;
+}
+.btn-login{
+    border:2px solid rgb(217, 219, 233) ;
+    color: #6E46AE;
+}
+.btn-login:hover{
+    background-color: rgb(217, 219, 233) ;
+    color: #6E46AE;
+}
+.navbar-nav li:hover{
+    border-bottom: 4px solid #230939;
+}
+.nav-item{
+   padding-left: 30px;
+} 
+.bg-banner{
+    background-color: #230939;
+}
+.text-color{
+    color: #230939;
+}
+.services-bg{
+    background-color: #3d2462;
+}
+.section-1{
+    border: 2px solid #6E46AE;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: white;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.section-1:hover{
+    background-color: #6E46AE;
+}
+
+.bg-banner:hover {
+    background-color: #230939;
+    color: white;
+}
