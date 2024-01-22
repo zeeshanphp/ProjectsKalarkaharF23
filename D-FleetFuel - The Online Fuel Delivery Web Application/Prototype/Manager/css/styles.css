@@ -1,0 +1,51 @@
+        :root{
+        --maincolor :#6517f5;
+        --seccolor :#9325f9;
+}
+        body{
+            background:#9bb0c9;
+            font-family: 'Lato', sans-serif;  
+        }
+        .top-bg{
+          background:#9325f9;
+        }
+	.nav-back{
+          background:#6517f5;
+			color: #FFF;
+		}
+        ul li a{
+            color:#a1d1e7;
+        }
+        ul li:hover{
+          background:#6517f5;
+            color:#b8c7ce;
+        }
+        .form-control{
+          border-radius: 0px;
+        }
+        .btn{
+          border-radius: 0px;
+        }
+        .cust-btn:hover{
+          background:#6517f5;
+        }
+        .cust-btn{
+          background:#9325f9;
+          color: #FFF;
+        }
+        .text-color{
+          color:#9325f9;
+        }
+
+
+        .cust-btn-in:hover{
+          background: #560027;
+          color: #fff;
+        }
+        .cust-btn-in{
+          background:#6517f5;
+          color: #FFF;
+        }
+        .text-color-in{
+          color:#6517f5;
+        }
