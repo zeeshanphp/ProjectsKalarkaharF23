@@ -13,8 +13,8 @@ if (isset($_POST['login'])) {
     if ($count > 0) {
         $row = mysqli_fetch_array($result);
         session_start();
-        $message = "Login Successfull";
-        $style = "alert alert-success bg-gradient";
+        $_SESSION["uid"] = $row["custId"];
+        header('location: jobs.php');
     } else {
         $message = "Login Fail";
         $style = "alert alert-danger bg-gradient";

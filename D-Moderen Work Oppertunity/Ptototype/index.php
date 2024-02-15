@@ -33,10 +33,10 @@
             <form action="search.php" method="post">
                 <table class="table table-borderless">
                     <tr>
-                        <td style="height: 50px;"><input type="text" class="form-control" name="" placeholder="Search Jobs , Keywords , Companies" required style="height: 50px;" /></td>
-                        <td style="height: 50px;"><input type="text" class="form-control" name="" placeholder="Enter Location Or Remote" required style="height: 50px;" /></td>
+                        <td style="height: 50px;"><input type="text" class="form-control" name="jname" placeholder="Search Jobs , Keywords , Companies" required style="height: 50px;" /></td>
+                        <td style="height: 50px;"><input type="text" class="form-control" name="location" placeholder="Enter Location Or Remote" required style="height: 50px;" /></td>
                         <td>
-                            <button type="submit" name="" class="btn btn-signup w-100" style="height: 50px;">
+                            <button type="submit" name="nsearch" class="btn btn-signup w-100" style="height: 50px;">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                                 </svg> </button>
@@ -164,6 +164,9 @@
             </div>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
